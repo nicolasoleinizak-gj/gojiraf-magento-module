@@ -1,7 +1,7 @@
 {
     "name": "gojiraf/gojiraf-magento-module",
     "description": "Adapter module for integration with GoJiraf Live Shopping",
-    "type": "composer-plugin",
+    "type": "composer",
     "autoload": {
         "psr-4": {
             "Gojiraf\\GojirafMagentoModule\\": "src/"
