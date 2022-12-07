@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
-    <preference for="Gojiraf\Gojiraf\Api\CatalogInterface" type="Gojiraf\Gojiraf\Model\Api\Catalog"/>
+    <preference for="Gojiraf\Gojiraf\Api\CatalogInterface" type="Gojiraf\Gojiraf\Model\Api\Catalog\Catalog"/>
     <preference for="Gojiraf\Gojiraf\Api\VersionInterface" type="Gojiraf\Gojiraf\Model\Api\Version"/>
+    <preference for="Gojiraf\Gojiraf\Api\StoreInterface" type="Gojiraf\Gojiraf\Model\Api\Store"/>
 </config>

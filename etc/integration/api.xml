@@ -1,0 +1,7 @@
+<integrations>
+    <integration name="GoJiraf Live Shopping">
+        <resources>
+            <resource name="Magento_Backend::all" />
+        </resources>
+    </integration>
+</integrations>

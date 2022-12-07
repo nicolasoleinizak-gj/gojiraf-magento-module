@@ -1,17 +1,17 @@
 {
     "name": "gojiraf/gojiraf-magento-module",
-    "description": "Adapter module for integration with GoJiraf Live Shopping",
-    "type": "composer",
-    "autoload": {
-        "psr-4": {
-            "Gojiraf\\GojirafMagentoModule\\": "src/"
-        }
+    "description": "Integration with GoJiraf Live Shopping",
+    "license": "proprietary",
+    "require": {
+       "php": "~8.0|~8.1"
     },
-    "authors": [
-        {
-            "name": "GoJiraf Live Shopping",
-            "email": "info@gojiraf.com"
-        }
-    ],
-    "require": {}
-}
+    "type": "magento2-module",
+    "autoload": {
+       "files": [ "registration.php" ],
+       "psr-4": {
+          "Gojiraf\\Gojiraf\\": ""
+       }
+    }
+  }
+  
+  

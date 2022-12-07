@@ -16,4 +16,11 @@
         </resources>
     </route>
 
+    <route url="/V1/gojiraf/store" method="GET">
+        <service class="Gojiraf\Gojiraf\Api\StoreInterface" method="getStoreData" />
+        <resources>
+            <resource ref="self" />
+        </resources>
+    </route>
+
 </routes>

@@ -1,0 +1,7 @@
+<integrations>
+   <integration name="GoJiraf Live Shopping">
+      <email>support@gojiraf.com</email>
+      <endpoint_url>https://8dqovv1cvb.execute-api.us-east-1.amazonaws.com/Prod/magento</endpoint_url>
+      <identity_link_url>https://8dqovv1cvb.execute-api.us-east-1.amazonaws.com/Prod/magento/login</identity_link_url>
+   </integration>
+</integrations>

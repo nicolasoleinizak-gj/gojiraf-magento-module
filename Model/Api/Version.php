@@ -7,7 +7,7 @@ class Version{
 
     // /rest/V1/gojiraf/version
     public function getVersion(){
-        $moduleResource = \Magento\Framework\App\ObjectManager::getInstance()->get('Gojiraf\Gojiraf\Model\Api\Catalog');
+        $moduleResource = \Magento\Framework\App\ObjectManager::getInstance()->get('Gojiraf\Gojiraf\Model\Api\Catalog\Catalog');
         $moduleVersion = $moduleResource->getCatalogVersion();
         return $moduleVersion;
     }
